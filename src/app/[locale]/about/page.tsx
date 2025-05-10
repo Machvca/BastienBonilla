@@ -5,8 +5,12 @@ import Image from "next/image";
 import hero1 from "../../../../public/assets/images/hero1.jpg";
 import Navbar from "@/src/components/sections/Navbar";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
+
 
 export default function Home() {
+  const t = useTranslations("About");
+
   return (
     <main className="bg-stone-000 min-h-screen flex flex-col bg-gradient-to-br from-bastien/10 via bastien/40 to-bastien/80">
       <Navbar />
@@ -19,7 +23,9 @@ export default function Home() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          Bastien is a French-born magician and stand-up comedian based in
+{t("description")}
+
+          {/* Bastien is a French-born magician and stand-up comedian based in
           Barcelona, Spain. <br />
           With over 10+ years of experience in the magic industry and having
           lived internationally all his life (France, Netherlands, Morocco,
@@ -29,7 +35,7 @@ export default function Home() {
           Spanish – and sometimes even all three at once!
           <br /> Bastien mixes his love of magic and stand-up to create a fun
           and unforgettable experience – relating to the audience while
-          performing feats only feasibly possible in their wildest dreams.
+          performing feats only feasibly possible in their wildest dreams. */}
         </motion.p>
 
         <motion.div
