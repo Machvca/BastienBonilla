@@ -1,7 +1,6 @@
 "use client";
 import Footer from "@/src/components/sections/Footer";
 import Navbar from "@/src/components/sections/Navbar";
-// import { sendEmail } from "@/src/lib/resend";
 import { useState } from "react";
 
 export default function Home() {
@@ -41,17 +40,15 @@ export default function Home() {
     }
   };
 
-  // function send() {
-  //    sendEmail()
-  // }
+ 
 
   return (
     <main className="bg-gradient-to-br from-bastien/10 via bastien/40 to-bastien/80  min-h-screen flex flex-col">
       <Navbar />
 
       <section className="flex flex-col items-center justify-center px-4 py-48 md:px-8  font-rubik animate-fade-in-up">
-        <div className="w-full max-w-2xl bg-[#feefef]  rounded-2xl shadow-xl p-8 border border-gray-200">
-          <h2 className="text-3xl font-medium mb-6 text-[#621316] text-center font-syne">
+        <div className="w-full max-w-2xl bg-[#feefef] -mt-18  rounded-2xl shadow-xl p-8 border border-gray-100">
+          <h2 className="text-7xl font-medium mb-6 text-[#621316] text-center font-syne">
             Contact Me
           </h2>
           <p className="text-stone-700 text-base mb-8 text-center font-rubik">
