@@ -52,5 +52,24 @@
   "BOOK_ME": "RESÉRVAME PARA TU EVENTO",
   "CHECK_AVAILABILITY": "VER DISPONIBILIDAD",
 
-  "FOOTER_COPYRIGHT": "Bastien Bonilla Todos los derechos reservados."
+  "FOOTER_COPYRIGHT": "Bastien Bonilla Todos los derechos reservados.",
+
+  "About": {
+    "description": "Bastien es un mago y comediante de stand-up de origen francés radicado en Barcelona, España. Con más de 10 años de experiencia en el mundo de la magia y habiendo vivido internacionalmente toda su vida (Francia, Países Bajos, Marruecos, Canadá y España), conecta y se adapta con éxito a todo tipo de público sin importar su bagaje cultural. Ha realizado espectáculos en francés, inglés y español —¡y a veces incluso en los tres idiomas simultáneamente! Bastien combina su pasión por la magia y el humor para crear una experiencia divertida e inolvidable, relacionándose con el público mientras realiza proezas que solo serían posibles en sus sueños más salvajes."
+  },
+
+  "Contact": {
+    "title": "Contáctame",
+    "description": "Déjame una breve explicación del evento para el que quieres contratarme, con todos los detalles relevantes. ¡Te responderé lo antes posible!",
+    "labelEmail": "Tu correo",
+    "placeholderEmail": "tunombre@ejemplo.com",
+    "labelSubject": "Asunto",
+    "placeholderSubject": "Fiesta de cumpleaños, evento corporativo, etc.",
+    "labelMessage": "Mensaje",
+    "placeholderMessage": "Cuéntame sobre tu evento y la fecha/hora preferida...",
+    "buttonSubmit": "Enviar mensaje",
+    "buttonSending": "Enviando...",
+    "toastSuccess": "¡Correo enviado con éxito!",
+    "toastError": "❌ Error al enviar. Intenta de nuevo."
+  }
 }

@@ -56,6 +56,21 @@
 
   "About": {
     "description": "Bastien is a French-born magician and stand-up comedian based in Barcelona, Spain. With over 10+ years of experience in the magic industry and having lived internationally all his life (France, Netherlands, Morocco, Canada, and Spain). He successfully connects and adapts to every audience from any cultural background. He has performed shows in French, English, Spanish – and sometimes even all three at once!  Bastien mixes his love of magic and stand-up to create a fun and unforgettable experience – relating to the audience while performing feats only feasibly possible in their wildest dreams."
+  },
+
+  "Contact": {
+    "title": "Contact Me",
+    "description": "Please leave a short explanation of the event you'd like to hire me for, including any relevant details. I'll get back to you as soon as possible!",
+    "labelEmail": "Your Email",
+    "placeholderEmail": "youremail@example.com",
+    "labelSubject": "Subject",
+    "placeholderSubject": "Birthday party, corporate event, etc.",
+    "labelMessage": "Message",
+    "placeholderMessage": "Tell me about your event and preferred date/time...",
+    "buttonSubmit": "Send Message",
+    "buttonSending": "Sending...",
+    "toastSuccess": "Email sent successfully!",
+    "toastError": "Error sending email. Please try again."
   }
 }
 

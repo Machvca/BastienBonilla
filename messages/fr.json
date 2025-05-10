@@ -52,5 +52,24 @@
   "BOOK_ME": "RÉSERVEZ-MOI POUR VOTRE ÉVÉNEMENT",
   "CHECK_AVAILABILITY": "VÉRIFIER LA DISPONIBILITÉ",
 
-  "FOOTER_COPYRIGHT": "Tous droits réservés."
+  "FOOTER_COPYRIGHT": "Tous droits réservés.",
+
+  "About": {
+    "description": "Bastien est un magicien et humoriste de stand-up d'origine française établi à Barcelone, en Espagne. Fort de plus de 10 ans d'expérience dans l'univers de la magie et ayant vécu à l'international toute sa vie (France, Pays-Bas, Maroc, Canada et Espagne), il sait créer un lien et s'adapter à tous les publics, quelles que soient leurs origines culturelles. Il a présenté des spectacles en français, anglais et espagnol —et parfois même dans les trois langues simultanément ! Bastien mélange son amour pour la magie et l'humour pour créer une expérience amusante et inoubliable, en établissant une complicité avec le public tout en réalisant des exploits qui ne sembleraient possibles que dans leurs rêves les plus fous."
+  },
+
+  "Contact": {
+    "title": "Contactez-moi",
+    "description": "Veuillez laisser une brève explication de l'événement pour lequel vous souhaitez m'engager, avec tous les détails pertinents. Je vous répondrai dès que possible!",
+    "labelEmail": "Votre email",
+    "placeholderEmail": "votrenom@exemple.com",
+    "labelSubject": "Sujet",
+    "placeholderSubject": "Fête d'anniversaire, événement d'entreprise, etc.",
+    "labelMessage": "Message",
+    "placeholderMessage": "Parlez-moi de votre événement et de la date/heure préférée...",
+    "buttonSubmit": "Envoyer",
+    "buttonSending": "Envoi…",
+    "toastSuccess": "E-mail envoyé avec succès!",
+    "toastError": "❌ Échec de l'envoi. Réessayez."
+  }
 }
