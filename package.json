@@ -17,6 +17,7 @@
     "next": "15.2.0",
     "next-i18n-router": "^5.5.1",
     "next-intl": "^4.0.2",
+    "nextjs-toast-notify": "^1.38.0",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

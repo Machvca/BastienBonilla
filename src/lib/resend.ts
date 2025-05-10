@@ -16,7 +16,7 @@ export const sendEmail = async ({ email, subject, message }: EmailData) => {
       to: "jjorgemachuca@gmail.com",
       from: "onboarding@resend.dev", // Usa este
       subject,
-      html: `<p><strong>From:</strong> ${email}</p><p>${message}</p>`,
+      html: `<h2><strong>Subject:</strong> ${subject}</h2><h2><strong>From:</strong> ${email}</h2><p>${message}</p>`,
     });
 
     console.log("Email enviado:", data); // <-- log

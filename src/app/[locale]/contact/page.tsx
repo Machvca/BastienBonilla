@@ -1,53 +1,68 @@
 "use client";
+
 import Footer from "@/src/components/sections/Footer";
 import Navbar from "@/src/components/sections/Navbar";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { showToast } from "nextjs-toast-notify";
+// import "nextjs-toast-notify/dist/index.css";
 
 export default function Home() {
-  const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
+
+  const [formData, setFormData] = useState({
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const isFormValid =
+    formData.email.trim() !== "" &&
+    formData.subject.trim() !== "" &&
+    formData.message.trim() !== "";
+
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const form = e.target as HTMLFormElement & {
-      email: { value: string };
-      subject: { value: string };
-      message: { value: string };
-    };
-
-    const data = {
-      email: form.email.value,
-      subject: form.subject.value,
-      message: form.message.value,
-    };
-
-    const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
-
-    const options = {
+    const response = await fetch("/api/send", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSONdata,
-    };
-
-    const response = await fetch(endpoint, options);
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
 
     if (response.status === 200) {
-      console.log("Message sent.");
-      setEmailSubmitted(true);
+      showToast.success("Mail send!", {
+        duration: 4000,
+        progress: true,
+        position: "top-right",
+        transition: "bounceIn",
+        icon: "✅",
+      });
+
+      formRef.current?.reset();
+      setFormData({ email: "", subject: "", message: "" });
+    } else {
+      showToast.error("❌ Error, try again!", {
+        duration: 4000,
+        progress: true,
+        position: "top-right",
+        transition: "bounceIn",
+      });
     }
   };
 
- 
-
   return (
-    <main className="bg-gradient-to-br from-bastien/10 via bastien/40 to-bastien/80  min-h-screen flex flex-col">
+    <main className="bg-gradient-to-br from-bastien/10 via bastien/40 to-bastien/80 min-h-screen flex flex-col">
       <Navbar />
 
-      <section className="flex flex-col items-center justify-center px-4 py-48 md:px-8  font-rubik animate-fade-in-up">
-        <div className="w-full max-w-2xl bg-[#feefef] -mt-18  rounded-2xl shadow-xl p-8 border border-gray-100">
+      <section className="flex flex-col items-center justify-center px-4 py-32 md:px-8 font-rubik animate-fade-in-up">
+        <div className="w-full max-w-2xl bg-[#feefef] rounded-2xl shadow-xl p-8 border border-gray-100">
           <h2 className="text-7xl font-medium mb-6 text-[#621316] text-center font-syne">
             Contact Me
           </h2>
@@ -57,7 +72,8 @@ export default function Home() {
             availability and better understand your needs. I’ll get back to you
             as soon as possible!
           </p>
-          <form className="space-y-6" onSubmit={handleSubmit}>
+
+          <form ref={formRef} className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label
                 htmlFor="email"
@@ -72,6 +88,7 @@ export default function Home() {
                 required
                 placeholder="youremail@gmail.com"
                 className="w-full p-4 text-base text-stone-900 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-stone-500 invalid:border-red-200 invalid:focus:ring-red-900"
+                onChange={handleInputChange}
               />
             </div>
 
@@ -89,6 +106,7 @@ export default function Home() {
                 required
                 placeholder="Birthday party, corporate event, etc."
                 className="w-full p-4 text-base text-stone-900 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-stone-500 invalid:border-red-200 invalid:focus:ring-red-900"
+                onChange={handleInputChange}
               />
             </div>
 
@@ -106,21 +124,20 @@ export default function Home() {
                 required
                 placeholder="Tell me about your event and preferred date/time..."
                 className="w-full p-4 text-base text-stone-900 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-stone-500 invalid:border-red-200 invalid:focus:ring-red-900"
+                onChange={handleInputChange}
               />
             </div>
 
             <button
               type="submit"
-              className="w-full bg-[#621316]/20 shadow-2xl text-[#621316] font-medium py-3 rounded-xl hover:bg-[#621316] hover:text-stone-100 transition duration-300"
+              className={`w-full font-medium py-3 rounded-xl transition duration-300 shadow-2xl ${
+                isFormValid
+                  ? "bg-[#621316] text-stone-100"
+                  : "bg-[#621316]/20 text-[#621316] hover:bg-[#621316] hover:text-stone-100"
+              }`}
             >
               Send Message
             </button>
-
-            {emailSubmitted && (
-              <p className="text-green-500 text-sm mt-2 text-center">
-                Email sent successfully!
-              </p>
-            )}
           </form>
         </div>
       </section>
