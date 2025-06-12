@@ -21,7 +21,7 @@ function Hero() {
 
       {/* Texto */}
       <div className="relative z-10 text-center px-4">
-        <h1 className="bg-linear-to-b animate-blurred-fade-in md:leading-26 animate-delay-500 from-bastien to-stone-300 bg-clip-text text-transparent font-bold text-4xl sm:text-6xl md:text-8xl xl:text-9xl leading-tight break-words">
+        <h1 className="bg-linear-to-b animate-blurred-fade-in md:leading-30 animate-delay-500 from-bastien to-stone-300 bg-clip-text text-transparent font-bold text-7xl  md:text-8xl xl:text-9xl leading-tight break-words">
           {t("NAME")}
         </h1>
         <p className="text-sm mt-6 md:text-xl text-[#621316] animate-blurred-fade-in animate-delay-100 font-rubik text-center mx-auto max-w-xl">
