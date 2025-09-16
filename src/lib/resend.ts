@@ -15,7 +15,7 @@ type EmailData = {
 export const sendEmail = async ({ email, subject, message }: EmailData) => {
   try {
     const data = await resend.emails.send({
-      to: "jjorgemachuca@gmail.com",
+      to: "tintinmickey@gmail.com",
       from: "onboarding@resend.dev", // Usa este
       subject,
       html: `<h2><strong>Subject:</strong> ${subject}</h2><h2><strong>From:</strong> ${email}</h2><p>${message}</p>`,
