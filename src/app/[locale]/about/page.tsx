@@ -2,7 +2,7 @@
 
 import Footer from "@/src/components/sections/Footer";
 import Image from "next/image";
-import hero1 from "../../../../public/assets/images/hero1.jpg";
+import hero1 from "../../../../public/assets/images/hero1.webp";
 import Navbar from "@/src/components/sections/Navbar";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
