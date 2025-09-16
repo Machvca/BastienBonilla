@@ -87,8 +87,8 @@ function Navbar() {
             : "-translate-x-full opacity-0 pointer-events-none"
         }`}
       >
-        <BackgroundLines>
-          <div className="flex flex-col items-center justify-center gap-8 text-4xl pt-72 font-rubik">
+        <BackgroundLines className="fixed inset-0 -z-10 pointer-events-none" />
+          <div className="flex flex-col items-center justify-center gap-8 text-4xl pt-72 font-rubik -mt-28">
             <Link
               href="/about"
               className="hover:text-stone-200"
@@ -114,7 +114,7 @@ function Navbar() {
             </a>
             <LanguageSwitcher />
           </div>
-        </BackgroundLines>
+        {/* </BackgroundLines> */}
       </div>
     </>
   );

@@ -78,7 +78,7 @@ function About() {
       </div>
 
       {/* Imagen con texto animado */}
-      <div className="relative w-full min-h-screen overflow-hidden -mt-64">
+      <div className="relative w-full min-h-screen overflow-hidden md:-mt-64">
         <Image
           src={about4}
           alt="Bastien Bonilla"

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import hero1 from "../../../public/assets/images/hero1.jpg";
+import hero1 from "../../../public/assets/images/hero1.webp";
 import { cn } from "@/src/lib/utils";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
