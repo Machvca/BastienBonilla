@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import hero2 from "../../../public/assets/images/hero2.jpg";
-import hero3 from "../../../public/assets/images/hero3.jpg";
+import hero2 from "../../../public/assets/images/hero2.webp";
+import hero3 from "../../../public/assets/images/hero3.webp";
 import hero4 from "../../../public/assets/images/hero4.jpg";
 import about4 from "../../../public/assets/images/about4.jpg";
 import { useTranslations } from "next-intl";
