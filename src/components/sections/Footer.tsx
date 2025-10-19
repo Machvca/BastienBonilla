@@ -10,7 +10,7 @@ export default function Footer() {
   const t = useTranslations();
 
   return (
-    <footer className="bottom-0 w-full p-4 text-stone-900-900 text-center bg-transparent mt-auto backdrop-blur-md">
+    <footer className="bottom-0 w-full p-4 text-stone-900-900 text-center  bg-transparent mt-auto backdrop-blur-md">
       <div className="grid grid-cols-3 items-center justify-items-center max-w-7xl mx-auto px-4">
         <a
           href="https://www.instagram.com/thetintinmickey/"
@@ -24,7 +24,7 @@ export default function Footer() {
             className="drop-shadow-lg drop-shadow-white/50"
           />
         </a>
-        <h1 className="text-sm text-[#621316]">
+        <h1 className="text-xs text-[#621316]">
           © {new Date().getFullYear()} {t("FOOTER_COPYRIGHT")}
         </h1>
         <Link href="/">

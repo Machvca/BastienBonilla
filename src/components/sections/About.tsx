@@ -18,11 +18,11 @@ function About() {
     t("ABOUT_CARD_3_TITLE"),
   ];
 
-  const descriptions = [
-    t("ABOUT_CARD_1_DESC"),
-    t("ABOUT_CARD_2_DESC"),
-    t("ABOUT_CARD_3_DESC"),
-  ];
+  // const descriptions = [
+  //   t("ABOUT_CARD_1_DESC"),
+  //   t("ABOUT_CARD_2_DESC"),
+  //   t("ABOUT_CARD_3_DESC"),
+  // ];
 
   const images = [hero2, hero3, hero4];
 
@@ -70,9 +70,9 @@ function About() {
             <h1 className="text-2xl md:text-3xl font-bold mb-4 text-shadow-lg">
               {titles[idx]}
             </h1>
-            <p className="text-center hover:scale-105 text-sm">
+            {/* <p className="text-center hover:scale-105 text-sm">
               {descriptions[idx]}
-            </p>
+            </p> */}
           </motion.div>
         ))}
       </div>
