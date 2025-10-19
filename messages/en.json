@@ -27,27 +27,30 @@
   "REVIEW_5_TITLE": "Moby-Dick",
 
   "ABOUT_CARD_1_TITLE": "✨ Close-Up Magic",
-  "ABOUT_CARD_1_DESC": "Strolling, table hopping, mingling - the magician blends in the crowd of your event and performs interactive tricks to smaller groups of people. Designed for venues or events which cannot support a show. Perfect for team buildings, trade-shows, birthdays, weddings, cocktail parties, and so much more. No technical requirements - just pure magic!",
+  "ABOUT_CARD_1_DESC": "Ideal for smaller gatherings, cocktail parties, weddings, or corporate mixers. I move through the crowd performing powerful, interactive magic just inches from your guests — with cards, coins, borrowed objects, and even minds. It’s personal, impossible, and leaves a lasting impression. No stage or setup required — just pure, portable astonishment.",
 
   "ABOUT_CARD_2_TITLE": "🎭 Stage Show",
-  "ABOUT_CARD_2_DESC": "Interactive show that mixes magical techniques such as sleight of hand, misdirection, mentalism, psychological deceptions and humor in a curated act over 10 years in the making. Can be adapted to any type of venue, ranging from: a small apartment room, to medium-sized stages, to larger theatres. Mainly designed for adult audiences (teenagers and older), but not suitable for kids. The show can be customized and tailored to the client.",
+  "ABOUT_CARD_2_DESC": "A theatrical, high-energy magic performance designed to captivate and entertain audiences of all sizes. This 30–60 minute show blends visual illusions, mind-reading, and audience participation into one unforgettable experience. Perfect for events with a stage or performance space, this show brings everyone’s focus to a single point — where the impossible becomes reality.",
 
   "ABOUT_CARD_3_TITLE": "🎩 Custom Show",
-  "ABOUT_CARD_3_DESC": "The Elite Package offers a fully personalized evening of entertainment, blending an engaging stage performance with interactive close-up magic. It’s designed to give your guests a complete magical experience from start to finish. This option is the top choice for most clients, with Bastien mingling through the crowd—often during cocktail hour or while entrées are served—performing intimate, close-up magic that generates excitement and sets the tone for the main act. By combining both elements into one event, this package offers excellent value and a discounted rate. It delivers a seamless night of captivating entertainment that's sure to leave your guests talking long after the event ends.",
+  "ABOUT_CARD_3_DESC": "Looking for something truly unique? The Custom Show is a bespoke blend of Close-Up and Stage Magic tailored specifically to your event. Whether it's a product launch, private celebration, or themed party, I’ll work with you to create a one-of-a-kind performance — including personalized tricks, branded illusions, or special messages woven into the magic. No two Custom Shows are ever the same.",
 
   "ABOUT_IMAGE_DESCRIPTION": "This is a small text in english i still need to change",
 
-  "TIMELINE_TITLE_1": "Get in Touch",
-  "TIMELINE_DESC_1": "Reach out with your contact information, and we'll contact you to set up a quick conversation",
+  "TIMELINE_TITLE_1": "1. Get in Touch",
+  "TIMELINE_DESC_1": "Start by filling out the contact form or sending me an email. Share a few details about your event — date, location, type of event, number of guests, and the kind of show you're interested in (Close-Up, Stage, or Custom).",
 
-  "TIMELINE_TITLE_2": "Quick Discussion",
-  "TIMELINE_DESC_2": "We'll talk about your event, your expectations, and see how our offering can satisfy your entertainment needs",
+  "TIMELINE_TITLE_2": "2. Let’s Chat",
+  "TIMELINE_DESC_2": "I’ll reach out to discuss the details and recommend the best magical experience for your event. We’ll cover logistics, timing, audience, and any custom touches you'd like to include.",
 
-  "TIMELINE_TITLE_3": "Closing",
-  "TIMELINE_DESC_3": "Confirm the date & the package you want, sign the dotted line...",
+  "TIMELINE_TITLE_3": "3. Receive Your Quote",
+  "TIMELINE_DESC_3": "Once everything is clear, I’ll send you a no-obligation quote outlining the performance, pricing, and what's included.",
 
-  "TIMELINE_TITLE_4": "Deliver",
-  "TIMELINE_DESC_4": "Sit back & enjoy as Tintin the Magician will take care of the rest!",
+  "TIMELINE_TITLE_4": "4. Secure Your Date",
+  "TIMELINE_DESC_4": "Happy with the plan? Lock in your date with a small deposit. Once booked, your event is officially on my calendar!",
+
+  "TIMELINE_TITLE_5": " 5. Showtime!",
+  "TIMELINE_DESC_5": "I’ll arrive early to set up (if needed), then it’s time to sit back, relax, and enjoy a magical experience your guests won’t forget.",
 
   "BOOK_ME": "BOOK ME FOR YOUR EVENT",
   "CHECK_AVAILABILITY": "CHECK AVAILABILITY",

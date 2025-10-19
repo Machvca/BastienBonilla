@@ -25,17 +25,7 @@ export default function Home() {
         >
 {t("description")}
 
-          {/* Bastien is a French-born magician and stand-up comedian based in
-          Barcelona, Spain. <br />
-          With over 10+ years of experience in the magic industry and having
-          lived internationally all his life (France, Netherlands, Morocco,
-          Canada, and Spain). <br />
-          He successfully connects and adapts to every audience from any
-          cultural background. He has performed shows in French, English,
-          Spanish – and sometimes even all three at once!
-          <br /> Bastien mixes his love of magic and stand-up to create a fun
-          and unforgettable experience – relating to the audience while
-          performing feats only feasibly possible in their wildest dreams. */}
+    
         </motion.p>
 
         <motion.div

@@ -53,6 +53,17 @@ export default function TimelineDemo() {
         </div>
       ),
     },
+    {
+      title: t("TIMELINE_TITLE_5")  ,
+      content: (
+        <div className="mb-12">
+          <p className="text-[#621316]/90 text-xs md:text-2xl font-normal mb-8">
+            {t("TIMELINE_DESC_5")}
+          </p>
+          <div className="grid grid-cols-2 gap-4"></div>
+        </div>
+      ),
+    },
   ];
 
   return (
