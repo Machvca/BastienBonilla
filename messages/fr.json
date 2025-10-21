@@ -26,28 +26,31 @@
   "REVIEW_5_NAME": "Herman Melville",
   "REVIEW_5_TITLE": "Moby-Dick",
 
-  "ABOUT_CARD_1_TITLE": "CLOSE-UP MAGIC",
-  "ABOUT_CARD_1_DESC": "En déambulant, de table en table, le magicien se fond dans la foule de votre événement et réalise des tours interactifs pour de petits groupes. Conçu pour les lieux ou événements ne pouvant accueillir un spectacle. Parfait pour les team buildings, salons, anniversaires, mariages, cocktails et bien plus encore. Aucune exigence technique – juste de la magie pure !",
+  "ABOUT_CARD_1_TITLE": "✨ Magie de proximité",
+  "ABOUT_CARD_1_DESC": "Idéale pour les petits groupes, les réceptions, les mariages ou les événements d’entreprise. Je me déplace parmi vos invités pour réaliser des tours de magie puissants et interactifs à quelques centimètres de leurs yeux. Pas besoin de scène ni d’installation — juste une expérience inoubliable, en toute simplicité.",
 
-  "ABOUT_CARD_2_TITLE": "THE SHOW",
-  "ABOUT_CARD_2_DESC": "Spectacle interactif mêlant techniques magiques telles que la prestidigitation, la diversion, le mentalisme, les illusions psychologiques et l’humour dans un numéro peaufiné pendant plus de 10 ans. Adaptable à tout type de lieu : d’un petit appartement à une scène moyenne ou un grand théâtre. Principalement destiné à un public adulte (adolescents et plus), non adapté aux enfants. Le spectacle peut être personnalisé selon le client.",
+  "ABOUT_CARD_2_TITLE": "🎭 Spectacle sur scène",
+  "ABOUT_CARD_2_DESC": "Un show captivant de 30 à 60 minutes, conçu pour rassembler et émerveiller tout un public. Illusions visuelles, mentalisme et participation du public se mêlent pour créer un spectacle impressionnant, idéal pour une scène ou un espace dédié.",
 
-  "ABOUT_CARD_3_TITLE": "THE ELITE PACKAGE",
-  "ABOUT_CARD_3_DESC": "Le forfait Elite propose une soirée de divertissement entièrement personnalisée, combinant une performance scénique engageante avec de la magie rapprochée interactive. Conçu pour offrir à vos invités une expérience magique complète du début à la fin. Ce forfait est le choix préféré de la plupart des clients, avec Bastien circulant parmi les invités – souvent lors du cocktail ou pendant le service des entrées – réalisant de la magie rapprochée intime qui suscite l’enthousiasme et prépare l’ambiance pour l’acte principal. En combinant ces deux éléments, ce forfait offre une excellente valeur et un tarif réduit. Il garantit une soirée fluide de divertissement captivant dont vos invités se souviendront longtemps.",
+  "ABOUT_CARD_3_TITLE": "🎩 Spectacle sur mesure",
+  "ABOUT_CARD_3_DESC": "Vous cherchez quelque chose de vraiment unique ? Ce spectacle personnalisé combine magie de proximité et magie scénique, avec des effets adaptés à votre événement. Parfait pour les lancements de produits, anniversaires ou soirées à thème — chaque show est créé sur mesure, rien que pour vous.",
 
   "ABOUT_IMAGE_DESCRIPTION": "VAFFANCULO !",
 
-  "TIMELINE_TITLE_1": "Contactez-nous",
-  "TIMELINE_DESC_1": "Envoyez-nous vos coordonnées et nous vous contacterons pour organiser une brève conversation",
+  "TIMELINE_TITLE_1": "Prenez contact",
+  "TIMELINE_DESC_1": "Remplissez le formulaire ou envoyez-moi un message avec les infos de votre événement (date, lieu, type de show, nombre d’invités, etc.).",
 
-  "TIMELINE_TITLE_2": "Discussion rapide",
-  "TIMELINE_DESC_2": "Nous discuterons de votre événement, de vos attentes et verrons comment notre offre peut répondre à vos besoins",
+  "TIMELINE_TITLE_2": "On échange",
+  "TIMELINE_DESC_2": "Je vous recontacte pour discuter des détails et vous conseiller sur la formule la plus adaptée.",
 
-  "TIMELINE_TITLE_3": "Conclusion",
-  "TIMELINE_DESC_3": "Confirmez la date et le forfait souhaité, signez sur la ligne pointillée...",
+  "TIMELINE_TITLE_3": "Recevez un devis",
+  "TIMELINE_DESC_3": "Je vous envoie un devis clair et sans engagement, incluant la prestation, les options et les tarifs.",
 
-  "TIMELINE_TITLE_4": "Livraison",
-  "TIMELINE_DESC_4": "Détendez-vous et profitez, Tintin le Magicien s’occupe du reste !",
+  "TIMELINE_TITLE_4": "Confirmez la réservation",
+  "TIMELINE_DESC_4": "Tout est bon pour vous ? Un petit acompte suffit pour bloquer la date dans mon agenda.",
+
+  "TIMELINE_TITLE_5": "Place au spectacle !",
+  "TIMELINE_DESC_5": "Je me charge du reste. Le jour J, je suis sur place à l’avance pour préparer la magie… et faire vivre à vos invités un moment inoubliable.",
 
   "BOOK_ME": "RÉSERVEZ-MOI POUR VOTRE ÉVÉNEMENT",
   "CHECK_AVAILABILITY": "VÉRIFIER LA DISPONIBILITÉ",

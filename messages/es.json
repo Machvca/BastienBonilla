@@ -26,28 +26,33 @@
   "REVIEW_5_NAME": "Herman Melville",
   "REVIEW_5_TITLE": "Moby-Dick",
 
-  "ABOUT_CARD_1_TITLE": "CLOSE-UP MAGIC",
+  "ABOUT_CARD_1_TITLE": "✨ Magia de Cerca",
   "ABOUT_CARD_1_DESC": "Caminando, de mesa en mesa, mezclándose: el mago se integra con el público de tu evento y realiza trucos interactivos para pequeños grupos. Diseñado para lugares o eventos que no pueden albergar un espectáculo. Perfecto para team buildings, ferias, cumpleaños, bodas, cócteles y mucho más. ¡Sin requerimientos técnicos, solo magia pura!",
 
-  "ABOUT_CARD_2_TITLE": "THE SHOW",
+  "ABOUT_CARD_2_TITLE": "🎭 Show de Escenario",
   "ABOUT_CARD_2_DESC": "Espectáculo interactivo que mezcla técnicas mágicas como prestidigitación, distracción, mentalismo, engaños psicológicos y humor en un acto curado durante más de 10 años. Puede adaptarse a cualquier tipo de lugar: desde un pequeño apartamento hasta escenarios medianos o grandes teatros. Diseñado principalmente para audiencias adultas (adolescentes en adelante), no apto para niños. El espectáculo puede personalizarse según el cliente.",
 
-  "ABOUT_CARD_3_TITLE": "THE ELITE PACKAGE",
-  "ABOUT_CARD_3_DESC": "El paquete Elite ofrece una noche de entretenimiento completamente personalizada, combinando una actuación escénica cautivadora con magia de cerca interactiva. Está diseñado para brindar a tus invitados una experiencia mágica completa de principio a fin. Esta opción es la preferida por la mayoría de los clientes, con Bastien interactuando entre los asistentes —a menudo durante el cóctel o mientras se sirven los entrantes— realizando magia cercana e íntima que genera entusiasmo y prepara el ambiente para el acto principal. Al combinar ambos elementos en un solo evento, este paquete ofrece un excelente valor y una tarifa con descuento. Garantiza una noche fluida de entretenimiento cautivador que dejará a tus invitados hablando mucho después del evento.",
+  "ABOUT_CARD_3_TITLE": "🎩 Show Personalizado",
+  "ABOUT_CARD_3_DESC": "¿Quieres algo único? Este show a medida mezcla magia de cerca y de escenario, con efectos personalizados según tu evento. Perfecto para lanzamientos, celebraciones privadas o eventos temáticos — cada show es diseñado exclusivamente para ti.",
 
   "ABOUT_IMAGE_DESCRIPTION": "Este es un pequeño texto en español que aún debo cambiar",
 
-  "TIMELINE_TITLE_1": "Contacto",
-  "TIMELINE_DESC_1": "Envíanos tu información de contacto y nos pondremos en contacto para agendar una conversación rápida",
+  "TIMELINE_TITLE_1": "Contáctame",
+  "TIMELINE_DESC_1": "Rellena el formulario o envíame un mensaje con los detalles del evento: fecha, lugar, tipo de show y número de invitados.",
 
-  "TIMELINE_TITLE_2": "Charla Rápida",
-  "TIMELINE_DESC_2": "Hablaremos sobre tu evento, tus expectativas y veremos cómo podemos satisfacer tus necesidades de entretenimiento",
 
-  "TIMELINE_TITLE_3": "Cierre",
-  "TIMELINE_DESC_3": "Confirma la fecha y el paquete que deseas, firma la línea punteada...",
 
-  "TIMELINE_TITLE_4": "Entrega",
-  "TIMELINE_DESC_4": "Relájate y disfruta mientras Tintin el Mago se encarga del resto!",
+  "TIMELINE_TITLE_2": "Hablamos",
+  "TIMELINE_DESC_2": "Me pondré en contacto contigo para comentar los detalles y recomendarte la mejor opción mágica para tu evento.",
+
+  "TIMELINE_TITLE_3": "Recibe tu presupuesto",
+  "TIMELINE_DESC_3": "Te enviaré una propuesta clara y sin compromiso, con todos los detalles del show y los precios.",
+
+  "TIMELINE_TITLE_4": "Confirma tu reserva",
+  "TIMELINE_DESC_4": "¿Todo en orden? Solo necesitas un pequeño adelanto para asegurar la fecha en mi calendario.",
+
+  "TIMELINE_TITLE_5": "¡Es hora del show!",
+  "TIMELINE_DESC_5": "El día del evento, llegaré con antelación para preparar todo… y luego, magia garantizada para sorprender a todos tus invitados.",
 
   "BOOK_ME": "RESÉRVAME PARA TU EVENTO",
   "CHECK_AVAILABILITY": "VER DISPONIBILIDAD",
